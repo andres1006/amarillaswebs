@@ -1139,9 +1139,9 @@ div#preloader {
 
 .project-menu li a {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #444;
+    border: 1px solid rgb(22, 104, 228);
     border-radius: 20px;
-    color: #444;
+    color: rgb(22, 104, 228);
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
@@ -1154,8 +1154,8 @@ div#preloader {
 
 .project-menu li a.active,
 .project-menu li a:hover {
-    border-color: #3EC1D5;
-    background: #3EC1D5;
+    border-color: rgb(255, 208, 0);
+    background: rgb(255, 208, 0);
     color: #fff;
     text-decoration: none;
 }
@@ -1199,7 +1199,7 @@ div#preloader {
 }
 
 .awesome-img>a::after {
-    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    background: rgba(143, 150, 44, 0.616) none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -1816,7 +1816,12 @@ div#preloader {
 
 .footer-area {
     padding: 40px 0;
-    background: #f9f9f9;
+    background: #f1ebd7;
+}
+
+.encontrar-area {
+    margin: 30px;
+    background: #f5edd2;
 }
 
 .footer-head p {
@@ -1914,7 +1919,7 @@ div#preloader {
 }
 
 .footer-area-bottom {
-    background: #f1f1f1 none repeat scroll 0 0;
+    background: #f1d904 none repeat scroll 0 0;
     padding: 15px 0;
 }
 
