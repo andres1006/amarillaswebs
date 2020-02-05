@@ -439,9 +439,11 @@
                                 </p>
                                 <div class="subs-feilds ">
                                     <div class="suscribe-input ">
-                                        <input type="email " class="email form-control width-80 " id="sus_email " placeholder="correo@Ejemplo.com">
-                                        <button type="submit " id="sus_submit " class="add-btn width-20 ">Subscribe</button>
-                                        <div id="msg_Submit " class="h3 text-center hidden "></div>
+                                        <form action="https://formspree.io/xeqggbnw" method="POST">
+                                            <input type="email " name="_replyto" class="email form-control width-80 " data-rule="email " id="sus_email " placeholder="correo@Ejemplo.com">
+                                            <button type="submit " id="sus_submit " class="add-btn width-20 ">Subscribe</button>
+                                            <div id="msg_Submit " class="h3 text-center hidden "></div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -452,6 +454,7 @@
         </div>
     </div>
     <!-- End Wellcome Area -->
+
 
 
 
@@ -525,32 +528,33 @@
                                 <p>Envianos un mensaje, nosotros lo contactaremos. Gracias!</p>
                             </div>
                             <div id="errormessage "></div>
-                            <form action="https://formspree.io/xeqggbnw " method="post" role="form " class="contactForm ">
+
+                            <form action="https://formspree.io/xeqggbnw " method="POST" ">
                                 <div class="form-group ">
-                                    <input type="text " name="name " class="form-control " id="name " placeholder="Nombre Apellido" data-rule="minlen:4 " data-msg="Porfavor ingresar nombre y apellido" />
+                                    <input type="text " name="_name " class="form-control " id="name " placeholder="Nombre Apellido " data-rule="minlen:4 " data-msg="Porfavor ingresar nombre y apellido " />
                                     <div class="validation "></div>
                                 </div>
                                 <div class="form-group ">
-                                    <input type="text " name="telefono " class="form-control " id="name " placeholder="Telefono" data-rule="minlen:4 " data-msg="Porfavor ingresar telefono " />
+                                    <input type="text " name="_telefono " class="form-control " id="telefono " placeholder="Telefono " data-rule="minlen:4 " data-msg="Porfavor ingresar telefono " />
                                     <div class="validation "></div>
                                 </div>
                                 <div class="form-group ">
-                                    <input type="email " class="form-control " name="email " id="email " placeholder="E-mail" data-rule="email " data-msg="Porfavor ingresar email " />
+                                    <input type="email " class="form-control " name="_replyto " id="email " placeholder="E-mail " data-rule="email " data-msg="Porfavor ingresar email " />
                                     <div class="validation "></div>
                                 </div>
                                 <div class="form-group ">
-                                    <input type="text " name="name " class="form-control " id="ciudad " placeholder="Ciudad" data-rule="minlen:4 " data-msg="Porfavor ingresar ciudad" />
+                                    <input type="text " name="_ciudad " class="form-control " id="ciudad " placeholder="Ciudad " data-rule="minlen:4 " data-msg="Porfavor ingresar ciudad " />
                                     <div class="validation "></div>
                                 </div>
                                 <div class="form-group ">
-                                    <input type="text " class="form-control " name="empresa " id="subject " placeholder="Empresa" data-rule="minlen:4 " data-msg="Porfavor ingresar empresa " />
+                                    <input type="text " class="form-control " name="_empresa " id="empresa " placeholder="Empresa " data-rule="minlen:4 " data-msg="Porfavor ingresar empresa " />
                                     <div class="validation "></div>
                                 </div>
                                 <div class="form-group ">
-                                    <textarea class="form-control " name="message " rows="5 " data-rule="required " data-msg="" placeholder="Mensaje "></textarea>
+                                    <textarea class="form-control " name="_message " rows="5 " data-rule="required " data-msg=" " placeholder="Mensaje "></textarea>
                                     <div class="validation "></div>
                                 </div>
-                                <div class="text-center "><button type="submit">Enviar Mensaje</button></div>
+                                <div class="text-center "><button type="submit " id="sus_submit " class="add-btn width-20 ">Enviar</button></div>
                             </form>
                         </div>
                     </div>
@@ -570,7 +574,7 @@
                         <div class="footer-content ">
                             <div class="footer-head ">
                                 <div class="footer-logo ">
-                                    <img src="img/logo.png" alt="" style="height: 55px;" />
+                                    <img src="img/logo.png " alt=" " style="height: 55px; " />
                                 </div>
 
                                 <p>Somos una plataforma online empresarial, que Posiciona ,Fortalece y Proyecta Empresas, Negocios, Profesionales, Productos o Servicios a nivel Local, Nacional e Internacional.</p>
@@ -610,9 +614,9 @@
                             <div class="footer-head ">
                                 <h4>DESTACADOS</h4>
                                 <div class="flicker-img ">
-                                    <a href="avisos/mariachiTequilaShow/mariachitequilaShow.html"><img src="avisos/mariachiTequilaShow/img/1.jpg" alt=" "></a>
-                                    <a href="avisos/cardcos/cardcos.html"><img src="avisos/cardcos/img/0.jpg" alt=" "></a>
-                                    <a href="avisos/sabuesos/sabuesos.html"><img src="avisos/sabuesos/img/11.jpg" alt=" "></a>
+                                    <a href="avisos/mariachiTequilaShow/mariachitequilaShow.html "><img src="avisos/mariachiTequilaShow/img/1.jpg " alt=" "></a>
+                                    <a href="avisos/cardcos/cardcos.html "><img src="avisos/cardcos/img/0.jpg " alt=" "></a>
+                                    <a href="avisos/sabuesos/sabuesos.html "><img src="avisos/sabuesos/img/11.jpg " alt=" "></a>
                                 </div>
                             </div>
                         </div>
